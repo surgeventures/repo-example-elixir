@@ -25,7 +25,8 @@ defmodule RepoExample.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_doc, "~> 0.18", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.18", only: :dev, runtime: false},
+      {:junit_formatter, "~> 2.1", only: :test}
     ]
   end
 end
