@@ -1,21 +1,18 @@
-# RepoExample
+# Repo example for Elixir
 
-**TODO: Add description**
+**An example open source Elixir application.**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `repo_example` to your list of dependencies in `mix.exs`:
+Add `repo_example` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:repo_example, "~> 0.1.0"}
+    {:repo_example, "~> x.y.z"}
   ]
 end
 ```
+## Documentation
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/repo_example](https://hexdocs.pm/repo_example).
-
+The documentation can be found on [HexDocs](https://hexdocs.pm/repo_example).
