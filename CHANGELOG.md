@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+## 1.0.1
+
+### Added
+
+- Badges in README
+
 ## 1.0.0
 
 ### Added
