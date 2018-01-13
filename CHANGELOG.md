@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 1.0.0
+
 ### Added
 
 - Basic ExDoc configuration
@@ -9,3 +11,4 @@
 - CircleCI configuration with JUnit test results
 - Credo configuration
 - ExCoveralls configuration
+- Hex package configuration
