@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+## 1.1.0
+
+### Added
+
+- `RepoExample.hello/1` for greeting by name
+
+### Fixed
+
+- ExCoveralls now reports 100% coverage instead of 0%
+
 ## 1.0.1
 
 ### Added

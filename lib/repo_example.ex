@@ -10,9 +10,13 @@ defmodule RepoExample do
 
       iex> RepoExample.hello
       :world
+      iex> RepoExample.hello("Karol")
+      "Hello Karol!"
 
   """
-  def hello do
-    :world
+  def hello(name \\ nil)
+  def hello(nil), do: :world
+  def hello(name) do
+    "Hello #{name}!"
   end
 end
