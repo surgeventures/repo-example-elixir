@@ -26,7 +26,8 @@ defmodule RepoExample.Mixfile do
   defp deps do
     [
       {:ex_doc, "~> 0.18", only: :dev, runtime: false},
-      {:junit_formatter, "~> 2.1", only: :test}
+      {:junit_formatter, "~> 2.1", only: :test},
+      {:credo, "~> 0.8", only: [:dev, :test]}
     ]
   end
 end
